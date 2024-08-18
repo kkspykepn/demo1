@@ -34,6 +34,11 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          echo list dir 
           dir
+          echo show aa.txt data
+          cat aa.txt
           echo "AAaaa" > aa.txt
           dir
+          echo show aa.txt data
+          cat aa.txt
